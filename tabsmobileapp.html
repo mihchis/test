@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/tabsmobileapp.css" />
+  </head>
+  <body>
+    <div class="fake1"></div>
+    <div class="fake2"></div>
+    <div class="cover">
+      <div class="big_wrapper">
+        <div class="title">
+          <h1>Our Capacity</h1>
+        </div>
+        <div class="tab_box">
+          <button class="tab_btn active">Phát triển giao diện</button>
+          <button class="tab_btn">Phát triển hệ thống</button>
+
+          <div class="line"></div>
+        </div>
+        <div class="wrapper">
+          <div class="container">
+            <div class="content_box">
+              <div class="content active">
+                <div class="image">
+                  <img
+                    src="/assets/img_webapp/research-consulting.png"
+                    alt="Research & Consulting"
+                    width="520px"
+                  />
+                </div>
+
+                <div class="content_container">
+                  <h2>Chúng tôi có thể giúp gì cho bạn ?</h2>
+                  <p>
+                    Kể từ khi thành lập, TP&P Technology – một công ty phát
+                    triển ứng dụng web hàng đầu có trụ sở chính tại Thành phố Hồ
+                    Chí Minh, Việt Nam – đã phát triển các sản phẩm gia công để
+                    trao quyền cho các công ty quốc tế khác nhau, từ doanh
+                    nghiệp đến SME và các công ty mới thành lập.
+                  </p>
+                  <p>
+                    Để bắt đầu, chúng tôi sẽ tham khảo ý kiến ​​của bạn để hiểu
+                    được nhu cầu kinh doanh cụ thể của bạn và giúp đưa ra các
+                    giải pháp phù hợp nhất bằng cách chọn các công nghệ và kiến
+                    ​​trúc phù hợp cho dự án.
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="image">
+                  <img
+                    src="assets/img_webapp/fe_development.png"
+                    alt="Front-End Development"
+                    width="520px"
+                  />
+                </div>
+
+                <div class="content_container">
+                  <h2>Chúng tôi có thể giúp gì cho bạn ?</h2>
+                  <p>
+                    Kể từ khi thành lập, TP&P Technology – một công ty phát
+                    triển ứng dụng web hàng đầu có trụ sở chính tại Thành phố Hồ
+                    Chí Minh, Việt Nam – đã phát triển các sản phẩm gia công để
+                    trao quyền cho các công ty quốc tế khác nhau, từ doanh
+                    nghiệp đến SME và các công ty mới thành lập.
+                  </p>
+                  <p>
+                    Để bắt đầu, chúng tôi sẽ tham khảo ý kiến ​​của bạn để hiểu
+                    được nhu cầu kinh doanh cụ thể của bạn và giúp đưa ra các
+                    giải pháp phù hợp nhất bằng cách chọn các công nghệ và kiến
+                    ​​trúc phù hợp cho dự án.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const tabs = document.querySelectorAll(".tab_btn");
+      const all_content = document.querySelectorAll(".content");
+
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", (e) => {
+          tabs.forEach((tab) => {
+            tab.classList.remove("active");
+          });
+          tab.classList.add("active");
+
+          var line = document.querySelector(".line");
+          line.style.width = e.target.offsetWidth + "px";
+          line.style.left = e.target.offsetLeft + "px";
+
+          all_content.forEach((content) => {
+            content.classList.remove("active");
+          });
+          all_content[index].classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/slider.css" />
+  </head>
+  <body>
+    <div class="cover"></div>
+    <div class="wrapper">
+      <!-- ---------- BEGIN: IMAGES SLIDER ---------- -->
+      <div class="slider">
+        <div class="slides">
+          <!-- ---------- BEGIN: RADIO BUTTONS ---------- -->
+
+          <input type="radio" name="radio-btn" id="radio1" />
+
+          <input type="radio" name="radio-btn" id="radio2" />
+
+          <input type="radio" name="radio-btn" id="radio3" />
+
+          <input type="radio" name="radio-btn" id="radio4" />
+
+          <input type="radio" name="radio-btn" id="radio5" />
+
+          <!-- ---------- END: RADIO BUTTONS ---------- -->
+
+          <!-- ---------- BEGIN: SLIDE IMAGES ---------- -->
+          <!-- <div class="slide__img"> -->
+          <div class="slide first">
+            <img src="/assets/img_AI/ai_img_1.png" alt="Hệ thống cải tiến" />
+          </div>
+
+          <div class="slide">
+            <img
+              src="assets/img_AI/ai_img_2.png"
+              alt="AI - Các bot trò chuyện được cái tiến"
+            />
+          </div>
+
+          <div class="slide">
+            <img src="assets/img_AI/ai_img_3.png" alt="Phân tích và dự đoán" />
+          </div>
+
+          <div class="slide">
+            <img
+              src="assets/img_AI/ai_img_4.png"
+              alt="Xử lý ngôn ngữ tự nhiên"
+            />
+          </div>
+
+          <div class="slide">
+            <img src="assets/img_AI/ai_img_5.png" alt="Kinh doanh thông minh" />
+          </div>
+          <!-- </div> -->
+
+          <!-- ---------- END: SLIDE IMAGES ---------- -->
+
+          <!-- ---------- BEGIN: AUTOMATIC NAVIGATION ---------- -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+
+            <div class="auto-btn2"></div>
+
+            <div class="auto-btn3"></div>
+
+            <div class="auto-btn4"></div>
+
+            <div class="auto-btn5"></div>
+          </div>
+          <!-- ---------- END: AUTOMATIC NAVIGATION ---------- -->
+        </div>
+
+        <!-- ---------- BEGIN: MANUAL NAVIGATION ---------- -->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+
+          <label for="radio2" class="manual-btn"></label>
+
+          <label for="radio3" class="manual-btn"></label>
+
+          <label for="radio4" class="manual-btn"></label>
+
+          <label for="radio5" class="manual-btn"></label>
+        </div>
+        <!-- ---------- END: MANUAL NAVIGATION ---------- -->
+      </div>
+      <!-- ---------- END: IMAGES SLIDER ---------- -->
+
+      <div class="slide__content">
+        <h1>Những gì chúng tôi cung cấp</h1>
+        <h2>
+          Phát triển giải pháp học AI / Máy & Dịch vụ tư vấn khoa học dữ liệu
+        </h2>
+        <p>
+          Tận dụng các kỹ năng của các nhóm của chúng tôi và chuyên môn kỹ thuật
+          của họ, để tạo ra các giải pháp tiên tiến và thông minh nhằm giải
+          quyết các thách thức kinh doanh của bạn.
+        </p>
+        <p>
+          Chúng tôi cung cấp dịch vụ trí tuệ nhân tạo và máy học, giúp doanh
+          nghiệp tối ưu hóa quy trình và tăng cường năng suất. Với đội ngũ
+          chuyên gia có kinh nghiệm, chúng tôi cam kết cung cấp các giải pháp
+          tối ưu nhất cho khách hàng. Liên hệ với chúng tôi để biết thêm chi
+          tiết.
+        </p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 5) {
+          counter = 1;
+        }
+      }, 3000);
+    </script>
+  </body>
+</html>

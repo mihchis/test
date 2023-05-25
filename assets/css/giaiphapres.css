@@ -1,0 +1,432 @@
+/* ----------------- header ---------------------- */
+@media (min-width: 1023px) and (max-width: 1240px) {
+  .nav li a {
+    font-size: 14px !important;
+  }
+
+  .title_slide h1 {
+    font-size: 46px !important;
+  }
+  .img_slide img {
+    width: 70% !important;
+  }
+  .img_slide {
+    padding-left: 60px !important;
+  }
+}
+/* ----------------- header ---------------------- */
+
+/* ----------------- footer ---------------------- */
+@media (min-width: 1023px) and (max-width: 1200px) {
+  .slide-content {
+    padding: 20px !important;
+    margin-left: 180px !important;
+  }
+  .slick-slide {
+    padding: 10px !important;
+    width: 700px !important;
+  }
+  .footer-workinginfo__wrapper {
+    left: 25% !important;
+    width: 200px !important;
+  }
+  .workinginfo-time-detail {
+    font-size: 10px !important;
+  }
+  .footer-workinginfo-col {
+    font-size: 10px !important;
+  }
+  .footer-workinginfo-col img {
+    width: 20px;
+    height: 20px;
+  }
+  .footer-logo__img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .content-footer-ab h3 {
+    top: 140px !important;
+  }
+  .content-footer-ab {
+    width: 200px !important;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .list-footer-dv ul li {
+    font-size: 10px;
+  }
+
+  .list-footer-dv h3 {
+    font-size: 18px !important;
+  }
+  .list-footer-gp ul li {
+    font-size: 10px !important;
+  }
+  .list-footer-gp h3 {
+    font-size: 18px !important;
+  }
+  .list-footer-gp {
+    left: 72% !important;
+    right: 0;
+    top: 30px;
+    width: fit-content;
+  }
+  .footer-logo__wrapper hr {
+    width: 800px;
+    left: 100px !important;
+    right: 150px !important;
+    top: 330px !important;
+    bottom: 50px !important;
+  }
+  .social__icon {
+    right: 220px !important;
+    width: 80px !important;
+  }
+  .footer-copyright {
+    left: 350px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1470px) {
+  .footer-workinginfo__wrapper {
+    left: 21% !important;
+    width: 200px !important;
+  }
+  .workinginfo-time-detail {
+    font-size: 14px !important;
+  }
+  .footer-workinginfo-col {
+    font-size: 14px !important;
+  }
+  .footer-workinginfo-col img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-logo__img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .content-footer-ab h3 {
+    top: 140px !important;
+  }
+  .content-footer-ab {
+    width: 200px !important;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .list-footer-dv ul li {
+    font-size: 12px;
+  }
+
+  .list-footer-dv h3 {
+    font-size: 18px !important;
+  }
+  .list-footer-gp ul li {
+    font-size: 12px !important;
+  }
+  .list-footer-gp h3 {
+    font-size: 18px !important;
+  }
+  .list-footer-gp {
+    left: 75% !important;
+    right: 0;
+    top: 30px;
+  }
+  .footer-logo__wrapper hr {
+    width: 1000px;
+    left: 100px !important;
+    right: 150px !important;
+    top: 330px !important;
+    bottom: 50px !important;
+  }
+  .social__icon {
+    right: 140px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .social__icon {
+    right: 260px !important;
+    bottom: 80px !important;
+  }
+
+  .footer-workinginfo__wrapper {
+    left: 400px !important;
+  }
+
+  .footer-logo__wrapper hr {
+    width: 1400px;
+    left: 100px !important;
+    right: 150px !important;
+    top: 330px !important;
+    bottom: 50px !important;
+  }
+
+  .content-footer-ab {
+    margin-left: 50px !important;
+  }
+
+  .content-footer-ab h3 {
+    left: 2.5% !important;
+  }
+}
+/* ----------------- footer ---------------------- */
+
+/* ----------------- banner ---------------------- */
+@media (min-width: 1024px) and (max-width: 1510px) {
+  .giaiphap__banner__content__container {
+    left: 120px !important;
+    width: 35% !important;
+    font-size: 18px !important;
+  }
+  .giaiphap__banner__content__container h1 {
+    font-size: 48px !important;
+  }
+}
+/* ----------------- banner ---------------------- */
+
+/* --------------- Mang luoi -------------------- */
+@media (min-width: 1240px) and (max-width: 1345px) {
+  .mangluoi__image__container {
+    margin: 20px;
+  }
+  .mangluoi__text1 {
+  }
+  .mangluoi__item {
+  }
+  .mangluoi__img {
+    width: 80% !important;
+  }
+  .mangluoi__text1 h2 {
+    font-size: 18px !important;
+  }
+  .mangluoi__text2 h2 {
+    font-size: 18px !important;
+  }
+  .mangluoi__text3 h2 {
+    font-size: 18px !important;
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+  }
+  .mangluoi__text__description {
+    width: 95% !important;
+    font-size: 10px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    line-height: 18px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1240px) {
+  .mangluoi__image__container {
+    margin: 20px;
+  }
+  .mangluoi__text1 {
+  }
+  .mangluoi__item {
+  }
+  .mangluoi__img {
+    width: 85% !important;
+  }
+  .mangluoi__text1 h2 {
+    font-size: 18px !important;
+    padding-left: 28px !important;
+  }
+  .mangluoi__text2 h2 {
+    font-size: 18px !important;
+    padding-left: 8px !important;
+  }
+  .mangluoi__text3 h2 {
+    width: fit-content !important;
+    font-size: 18px !important;
+    padding-left: 69px !important;
+  }
+  .mangluoi__text__description {
+    width: fit-content !important;
+    font-size: 12px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    line-height: 18px !important;
+  }
+  .mangluoi__icon {
+    display: none !important;
+  }
+}
+/* --------------- Mang luoi -------------------- */
+
+/* --------------- KYC -------------------- */
+@media (min-width: 1200px) and (max-width: 1410px) {
+  .theback2__title h1 {
+    top: 100px !important;
+  }
+  .kyc__image__container {
+    padding: 0px !important;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1200px) {
+  .theback2__title h1 {
+    top: 75px !important;
+    font-size: 22px !important;
+    padding-left: 46px !important;
+  }
+  .theback2 p {
+    font-size: 14px !important;
+    top: 150px;
+    padding-left: 28px !important;
+  }
+
+  .thefront2 h1 {
+    bottom: 60px !important;
+    padding-left: 30px !important;
+  }
+
+  .theback1__title h1 {
+    top: 75px !important;
+    font-size: 22px !important;
+    padding-left: 46px !important;
+  }
+
+  .theback1 p {
+    font-size: 14px !important;
+    top: 150px;
+    padding-left: 28px !important;
+  }
+
+  .thefront1 h1 {
+    bottom: 60px !important;
+    padding-left: 30px !important;
+  }
+
+  .theback__title h1 {
+    padding-left: 53px !important;
+    top: 80px !important;
+    font-size: 22px !important;
+  }
+
+  .theback p {
+    font-size: 14px !important;
+    top: 150px;
+    padding-left: 28px !important;
+  }
+
+  .thefront h1 {
+    bottom: 80px !important;
+    padding-left: 30px !important;
+  }
+
+  .kyc__image__container {
+    padding: 0 !important;
+  }
+  .container {
+    height: 369px !important;
+  }
+  .container1 {
+    height: 369px !important;
+  }
+  .container2 {
+    height: 369px !important;
+  }
+}
+/* --------------- KYC -------------------- */
+
+/* --------------- Tai Nguyen Doanh Nghiep -------------------- */
+@media (min-width: 1920px) {
+  #photoArray {
+    grid-template-columns: 40% 30% 30% !important;
+    margin: 0 200px 0 200px !important;
+  }
+
+  .tainguyen__item1 img {
+    width: 590px !important;
+  }
+
+  .tainguyen__item2 img {
+    width: 880px !important;
+  }
+
+  .tainguyen__item3 img {
+    width: 440px !important;
+  }
+
+  .tainguyen__item4 img {
+    width: 425px !important;
+  }
+
+  .tainguyen__container p {
+    width: 20% !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1100px) {
+  #photoArray {
+    grid-template-columns: 35% 32% 32% !important;
+    margin: 0 !important;
+  }
+
+  .tainguyen__item1 img {
+    width: 345px !important;
+    height: 496px !important;
+  }
+
+  .tainguyen__item2 img {
+    width: 640px !important;
+    height: 220px !important;
+  }
+
+  .tainguyen__item3 img {
+    width: 310px !important;
+    height: 255px !important;
+  }
+
+  .tainguyen__item4 img {
+    width: 312px !important;
+    height: 255px !important;
+  }
+
+  .tainguyen__container h2 {
+    font-size: 18px !important;
+  }
+
+  .tainguyen__container p {
+    width: 30% !important;
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  #photoArray {
+    grid-template-columns: 35% 32% 32% !important;
+    margin: 0 !important;
+  }
+
+  .tainguyen__item1 img {
+    width: 345px !important;
+    height: 496px !important;
+  }
+
+  .tainguyen__item2 img {
+    width: 640px !important;
+    height: 220px !important;
+  }
+
+  .tainguyen__item3 img {
+    width: 310px !important;
+    height: 255px !important;
+  }
+
+  .tainguyen__item4 img {
+    width: 312px !important;
+    height: 255px !important;
+  }
+
+  .tainguyen__container h2 {
+    font-size: 18px !important;
+  }
+
+  .tainguyen__container p {
+    width: 30% !important;
+    font-size: 16px !important;
+  }
+}
+
+/* --------------- Tai Nguyen Doanh Nghiep -------------------- */

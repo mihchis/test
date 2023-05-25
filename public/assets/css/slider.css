@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+  background: url("/assets/img_webapp/webapp_background_2.png") top center /
+    cover no-repeat;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+
+.slider {
+  width: 40%;
+  height: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* background-color: #656669; */
+  margin-top: 140px;
+  margin-left: 70px;
+}
+
+.slider li {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.slider li a {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #656669;
+
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.slide h2 {
+}
+
+.slides {
+  width: 500%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input {
+  position: absolute;
+  bottom: 0;
+  display: none;
+}
+
+.slide {
+  display: flex;
+  width: 20%;
+  transition: 2s;
+}
+
+.slide__content {
+  width: 100%;
+  margin: 40px 60px 40px 0;
+}
+
+label {
+  color: #fff;
+}
+
+.slide__content {
+  width: 35%;
+  padding: 80px 80px 0 120px;
+}
+
+.slide__content h1 {
+  font-family: "Work Sans";
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+
+  color: #656669;
+  text-transform: uppercase;
+}
+
+.slide__content h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #656669;
+  text-transform: uppercase;
+}
+
+.slide__content p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+
+  color: #656669;
+}
+
+.slide img {
+  width: 600px;
+  height: 480px;
+  justify-content: flex-start;
+}
+
+/* CSS FOR MANUAL SLIDE NAVIGATION */
+
+.navigation-manual {
+  display: none;
+  position: absolute;
+  width: 1250px;
+  margin-top: -420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manual-btn {
+  display: none;
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 100px;
+}
+
+.manual-btn:hover {
+  background: #40d3dc;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
+
+/* CSS FOR AUTOMATIC SLIDE NAVIGATION */
+
+.navigation-auto {
+  display: none;
+  position: absolute;
+  display: flex;
+  width: 1250px;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.navigation-auto div {
+  display: none;
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 230px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: #fff;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background: #fff;
+}

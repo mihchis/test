@@ -1,0 +1,10 @@
+1. Header
+2. Slider
+3. Content
+	a. Gioi thieu
+	b. Dich vu
+	c. SP tieu bieu
+	d. Doi tac
+	e. Feedback
+	f. Lien he
+4. Footer

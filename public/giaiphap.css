@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Formatting */
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.clear {
+  clear: both;
+}
+
+.main {
+}
+
+/* Header */
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  z-index: 99999;
+  padding: 0 20px;
+}
+
+/* optional: add a box-shadow for a subtle effect */
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+}
+
+.nav {
+  display: none; /* hide the navigation by default */
+}
+
+/* show the navigation when the screen is wider than 768px */
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav li a {
+  display: flex;
+  align-items: center;
+  color: #444444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 10px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* adjust the navigation links when the screen is wider than 768px */
+@media (min-width: 768px) {
+  .nav li a {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+}
+
+.nav li:hover a {
+  background: linear-gradient(to right, #2673d7, #6ed0b6, #7adf4c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.language {
+  justify-content: space-around;
+  text-align: center;
+  align-items: baseline;
+}
+
+
+.nentang__container {
+  width: 100%;
+  height: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.health__content__container {
+  width: 100%;
+  height: 50%;
+  margin-left: 80px;
+}
+
+.nentang__content__container h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+
+  color: #434444;
+}
+
+/* Hệ thống doanh nghiệp tài nguyên */
+
+
+.image__image__container{
+  word-wrap: break-word;
+  width: 100%;
+}
+.imag1__container img{
+  position: absolute;
+  width: 500px;
+  height: 447px;
+  left:30px;
+  top: 205.3px;
+  
+}
+.overlay-text1 {
+  padding: 0px 10px;
+  position: absolute;
+  bottom: 90px;
+  width: 100%;
+  transition: all 0.3s ease-in-out ;
+}
+.overlay-title1{
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  opacity: 1;
+
+}
+
+
+.imag2__container img{
+  position: relative;
+  width: 805px;
+  height: 190px;
+  left:535px;
+  top: 175px;
+}
+.overlay-text2{
+  padding: 0px 10px;
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+  transition: all 0.3s ease-in-out ;
+}
+.overlay-title2{
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  opacity: 1; 
+}
+.imag3__container img{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  left: 535px;
+  top: 400px;
+}
+.overlay-text3{
+  padding: 0px 10px;
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+  transition: all 0.3s ease-in-out ;
+}
+.imag4__container img{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  left: 940px;
+  top: 400px;
+}
+.overlay-text4{
+  padding: 0px 10px;
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+  transition: all 0.3s ease-in-out ;
+} 
+
+
+
+
+.overlay1, .overlay2, .overlay3, .overlay4 {
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+  transition: all 0.3s ease-in-out ;
+  opacity: 0;
+  visibility: hidden;
+  color: #171717;
+  
+}
+
+.image-wrapper:hover .overlay1, .image-wrapper:hover .overlay2, .image-wrapper:hover .overlay3, .image-wrapper:hover .overlay4 {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+
